@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.ListPartners .BoxsRow{
+  display: flex;
+  overflow: hidden;
+  transition: .3s;
+}
+.ListPartners .BoxsRow .Box{
+  margin: 15px;
+  border-radius: 10px;
+  background: #ffffff25;
+  height: 150px;
+  width: 300px;
+}
+.ListPartners .BoxsRow .Box .Head{
+  display: flex;
+  color: #fff;
+  padding: 10px;
+  align-items: center;
+}
+.ListPartners .BoxsRow .Box .Head img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.ListPartners .BoxsRow .Box .Desc{
+  width: calc(100% - 50px);
+  margin-left: 50px;
+  color: #fff;
+  font-size: 90%;
+}
+    </style>
+</head>
+<body>
+    <div class="ListPartners">
+        <div class="BoxsRow">
+          <div class="Box">
+            <div class="Head">
+              <img src="" alt="" />
+              <div class="Name">
+                Abdul Haseeb
+              </div>
+            </div>
+            <div class="Desc">
+              Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+      </div>
+    <script>
+        const BoxsRow = document.querySelector(".BoxsRow");
+      let mrg = 0;
+      const wid = BoxsRow.getBoundingClientRect().width;
+      setInterval(()=>{
+        console.log(wid)
+        console.log(mrg)
+        if(-mrg < wid){
+          mrg -= 10;
+        }else{
+          mrg = 0;
+        }
+        BoxsRow.style.marginLeft = mrg + "px";
+      },500)
+    </script>
+</body>
+</html>

@@ -1,0 +1,807 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1,2;
+}
+body{
+  /* background-color: rgb(20,21,23); */
+  /* background: url(../src/image/sirdissBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: black;
+} 
+@media(max-width:765px){
+  body{
+    background-color: rgb(20,21,23);
+     /* background: url(../src/image/sirdissBackground.jpg);  */
+    background-color: black;
+    background-size: cover;
+  } 
+}
+.test{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sidebar{
+  background: rgb(26,27,30);
+  border-right: .1px solid #2C2E33;
+  padding-top: 70px;
+  height: 100%;
+}
+#footer_icon{
+  background-color: rgb(20,21,23);
+}
+#side-border{
+  border-bottom: .1px solid #2C2E33; 
+}
+
+#topbar{
+  background: rgb(26,27,30);
+  z-index: 99;
+  border-bottom: .1px solid #2C2E33;
+}
+#trait{
+  border-right: .1px solid #2C2E33;
+}
+#addcoin-type{
+  /* background: rgb(26,27,30); */
+  background: transparent;
+  border: .1px solid #2C2E33;
+}
+
+#chain,#address,#scan,#name,#symbol,#launch_time,#launch_date,#description,#link{
+  /* background: rgb(26,27,30); */
+  background: transparent;
+  border: .1px solid white;
+}
+#chain,#address,#scan,#name,#symbol,#launch_time,#launch_date,#description,#link:active{
+  /* background: rgb(26,27,30); */
+  background: transparent;
+}
+/* #login-input{
+  background: rgb(37,38,43);
+  border: .1px solid #2C2E33;
+} */
+#login-bottom{
+  border-top: 1px solid #2C2E33;
+}
+#imageContainer{
+ 
+  border: 2px dashed white;
+}
+#addcoin_container,#coindetails{
+  background-color: rgb(20,21,23,0.8); 
+}
+#table{
+  color: white;
+  /* background: transparent; */
+  background-color: rgb(20,21,23); 
+}
+#dropdown{
+  background: rgb(37,38,43);
+}
+.text{
+  background-color: rgb(20,21,23);
+  position: relative;
+}
+#trait-button{
+  background: rgb(125, 42, 232,0.8);
+}
+#ad-1{
+  background: url(../src/image/ad-1.jpg);
+  background-size: contain;
+}
+.coin_image{
+  width: 50px;
+  aspect-ratio: 1;
+}
+
+#coin-1-row{
+  background: #1a1b1e;
+  /* background: transparent; */
+}
+
+
+/* sirdiss promote coin css */
+.col-4 {
+  /* background-color:rgb(20,21,23,0.8); */
+  /* margin:20px;  */
+  color: white;
+  /* border-radius: 10px; */
+  }
+  
+  .buttonck{
+    padding: 10px;
+    background-color: #7d2ae8;
+    color: white;
+  }
+
+  .ppp{
+
+      text-align: center;
+      color: white;
+      
+
+  }
+
+
+
+ body{
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+     
+ }
+ footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: rgba(26,27,30,255);
+    padding: 60px 10%;
+
+ }
+ ul{
+    list-style: none;
+ }
+
+ .footer-col{
+    width: 25%;
+
+ }
+ .footer-col h4{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+ }
+ .footer-col h4::before{
+    content: '  ';
+     position: absolute;
+     left: 0;
+     bottom: -6px;
+     background-color:black ;
+     height: 2px;
+     width: 40px;
+
+       
+ }
+ ul li:not(:last-child){
+    margin-bottom: 8x;
+ }
+ ul li a{
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    transition: o.4s;
+ }
+
+ ul li a:hover{
+     color: white;
+     padding-left: 2px;
+ }
+ .links a{
+    display: inline-block ;
+    height: 44px;
+    width: 44px;
+    color: wheat;
+    background-color: black;
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius:50% ;
+    transition: 0.4s;
+
+ } 
+ .links a:hover{
+    color: rgba(26,27,30,255);
+    background-color: white;
+ }
+ @media(max-width:740px ){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+ 
+ .footer-col h4::before{
+    all:unset;
+
+ }
+}
+@media(max-width:55px){
+
+    .footer-col{
+        width: 100%;
+    }
+}
+.co{
+    color: white;
+}
+.fa-solid .fa-building{
+    margin-left: 10%;
+
+}
+
+#promote-plan{
+  border-right: .1px solid #2C2E33;
+}
+
+
+#search_container,#scan_container{
+  height: 100vh !important;
+  background: rgb(20,21,23,0.8) ;
+}  
+
+/* pagination styles */
+
+.page-num{
+  background: rgb(26,27,30);
+  border: .1px solid #2C2E33;
+}
+.page-active{
+  background-color: #7d2ae8;
+}
+
+
+/* sirdiss css */
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#customerss {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+#customers td, #customers th {
+  border: 1px solid #222020;
+  padding: 8px;
+}
+#customerss td, #customerss th {
+  border: 1px solid #222020;
+  padding: 8px;
+}
+
+
+#customers tr:nth-child(even){ background-color:rgba(26,27,30,255);
+    }
+    
+#customerss tr:nth-child(even){ background-color:rgba(26,27,30,255);
+    }
+
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+ 
+  color: white;
+}
+#customerss th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+ 
+  color: white;
+}
+td{
+    color: white;
+}
+h3{
+    color: white;  
+}
+h2{
+    color: white;  
+}
+.h1n,.h1s{
+    color: rgb(255, 153, 0);
+    font-size: 150%;
+ 
+    
+}
+.obh{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.p1n,.p1s{
+    color: red;
+}
+.cen{
+    align-content: center;
+}
+#cars{
+  width: 45%;
+  padding: 1%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid ;
+  border-radius: 3px;
+  background: #2C2E33;
+}
+
+.radio{
+  accent-color: #7d2ae8;
+}
+
+.str12{
+  color: white;
+}
+.container{
+  text-align: center;
+       
+      
+}
+input[type="submit"]{
+        cursor: pointer;
+    }
+.vgv{
+  color: rgba(230, 34, 34, 0.925);
+}
+ #co{
+  background-color:rgb(20,21,23);
+  
+ }
+
+
+
+
+/* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 6px 0;
+  background: rgb(20,21,23,0.8);
+  white-space: nowrap;
+  position: relative;
+}
+
+
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: flex;
+  animation: 10s slide infinite linear;
+}
+
+.logos-slide div {
+  height: 30px;
+  margin: 0 40px;
+}
+
+#popup{
+  width: 60%;
+}
+
+
+
+
+/* 
+################################################################################################################
+*/
+
+.MainAppLayoutContainer{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.MainAppLayoutContainer .MainWebsiteHeaderTop{
+  height: 75px;
+  padding: 0 2.5%;
+}
+.MainAppLayoutContainer .MainAppMiddleLayoutContainer{
+  height: calc(100vh - 75px);
+  display: flex;
+}
+.MainWebstieSideBar{
+  width: 250px;
+  padding: 0;
+}
+.MainAppInnerLayoutContainer{
+  width: calc(100% - 250px);
+  overflow: auto;
+}
+
+
+@media (max-width: 1025px) {
+  .MainAppInnerLayoutContainer{
+    width: 100%;
+  }
+  .MainWebstieSideBar{
+    position: fixed;
+    z-index: 999999;
+  }
+  
+}
+
+
+.MainNavBarLoginButton{
+  display: grid;
+  place-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.MainNavBarLoginButton .BG{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  height: 45px;
+  width: 80%;
+  background-image: linear-gradient(90deg,#7209d4,#2832d4 33%,#00a5b2);
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  background-image: linear-gradient(to right, #a1c4fd 0%, #00a5b2 51%, #a1c4fd 100%);
+  border-radius: 20px;
+}
+.MainNavBarLoginButton .Main{
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #1a1b1e;
+  height: 42px;
+  width: calc(95% - 5px);
+  justify-content: center;
+  border-radius: 20px;
+}
+.MainNavBarLoginButton .Main span{
+  margin-left: 0;
+}
+.MainWebsiteNavBar a:hover span{
+  background: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #2f32f7 100%);
+  background: linear-gradient(90deg,#7209d4,#2832d4 33%,#00a5b2);
+  background: linear-gradient(90deg,#883bd1,#646acf 33%,#3ba8b0);
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: .3s;
+}
+
+.MainHeaderAddCoinButton{
+  background: no-repeat;
+  border: 2px solid cyan;
+  border-radius: 10px;
+  transition: .3s;
+  box-shadow: inset 0 0 7.5px rgb(0, 116, 116);
+}
+.MainHeaderAddCoinButton:hover{
+  background: #498c8c50;
+}
+.MainHEaderPromoteCoin{
+  background: linear-gradient(45deg, #6b21a8, #00a7ac);
+  border-radius: 10px;
+  border: 2px solid cyan;
+  box-shadow: inset 0 0 5px #00000050;
+}
+
+
+
+
+
+
+.PromoteCoinPricingModal .text-center{
+  display: grid;
+  place-items: center;
+  height: 100px;
+  border-bottom: 1px solid #ffffff25;
+  color: #ffffff90;
+}
+.PromoteCoinPricingModal{
+  background: #162044;
+  border-radius: 10px;;
+}
+.PromoteCoinPricingModal.m2{
+  margin: 0 20px;
+  background: linear-gradient(to bottom right, #6b21a8, #66b2f5);
+}
+.PromoteCoinPricingModal .IconC{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15% 0;
+}
+.PromoteCoinPricingModal .IconC .Icon{
+  width: 100px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #ffffff50;
+  box-shadow: 0 10px 10% #00000050;
+}
+.PromoteCoinPricingModal.m1 .IconC .Icon svg{
+  width: 50%;
+  height: 50%;
+}
+.PromoteCoinPricingModal.m2 .IconC .Icon svg{
+  width: 50%;
+  height: 50%;
+}
+.PromoteCoinPricingModal.m3 .IconC .Icon svg{
+  width: 50%;
+  height: 50%;
+}
+.PromoteCoinPricingModal .flex-col.p-2 span{
+  margin: 2.5% 0;
+}
+.PromoteCoinPricingModal button{
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+
+
+#addcoin_container{
+  margin: 2.5%;
+  padding: 2.5%;
+  border-radius: 10px;
+  background: #1a1b1e;
+  width: auto;
+}
+#addcoin_container input,
+#addcoin_container textarea,
+#addcoin_container select{
+  border-radius: 10px;
+  border: 1px dashed #ffffff90;
+}
+#addcoin_container input:focus,
+#addcoin_container textarea:focus,
+#addcoin_container select:focus{
+  outline: none;
+  border: 1px solid #ffffffc6;
+}
+#addcoin_container .sect{
+  border-radius: 10px;
+  padding: 2.5%;
+}
+#addcoin_container .sect:hover{
+  background: #00000025;
+}
+#addcoin_container .p-5.rounded-full.bg-purple-800.text-white{
+  background: linear-gradient(90deg,#883bd1 33%,#646acf ,#3ba8b0);
+}
+
+#outlet::-webkit-scrollbar{
+  height: 10px;
+}
+#outlet::-webkit-scrollbar-thumb{
+  background: #ffffff20;
+}
+#outlet::-webkit-scrollbar-thumb:hover{
+  background: #ffffff50;
+}
+
+
+
+
+
+.HomePageTable_01 table::before{
+  content: "";
+  position: absolute;
+  top: -50%;
+  width: 15px;
+  filter: blur(65px);
+  background: #ffffff99;
+  transform: rotate(45deg);
+  height: 100vh;
+  animation: skjlakj 2s infinite;
+}
+@keyframes skjlakj {
+  from{
+    left: 0;
+  }to{
+    left: 100vw;
+  }
+}
+.HomePageTable_01 table{
+  border-radius: 10px;
+}
+.HomePageTable_01 table *{
+  font-size: 95% !important;
+}
+.HomePageTable_01 table tbody tr:hover{
+  background: #ffffff10;
+}
+
+
+
+.ListPartners .BoxsRow{
+  display: flex;
+  overflow: hidden;
+  transition: .3s;
+}
+.ListPartners .BoxsRow .Box{
+  margin: 15px;
+  border-radius: 10px;
+  background: #ffffff25;
+  height: 150px;
+  width: 300px;
+}
+.ListPartners .BoxsRow .Box .Head{
+  display: flex;
+  color: #fff;
+  padding: 10px;
+  align-items: center;
+}
+.ListPartners .BoxsRow .Box .Head img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.ListPartners .BoxsRow .Box .Desc{
+  width: calc(100% - 50px);
+  margin-left: 50px;
+  color: #fff;
+  font-size: 90%;
+}
+
+
+
+
+
+
+
+
+.m{
+  height: 50px;
+  border-radius: 10px;
+  background: #00000025;
+  display: flex;
+}
+.m .b{
+  background: #00000025;
+  height: 40px;
+  margin: 5px;
+  border-radius: 10px;
+  transition: 1s linear;
+  color: #fff;
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+#CHartContainer{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  padding: 2.5%;
+  background: #000;
+  z-index: 999999;
+  animation: show 1s linear;
+}
+@keyframes show {
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}
+#CrossButton{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ffffff50;
+  display: grid;
+  place-items: center;
+  transform: rotate(45deg);
+}
+#CrossButton .header{
+  margin-bottom: 2.5%;
+}
+#CrossButton::before{
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  background: #fff;
+}
+#CrossButton::after{
+  content: "";
+  position: absolute;
+  height: 90%;
+  width: 2px;
+  background: #fff;
+  }
+  #CHartContainer .MainSection{
+    display: flex;
+    padding: 5%;
+    color: #fff;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff50;
+    margin-bottom: 5%;
+    overflow: auto;
+}
+#CHartContainer .MainSection .Side{
+  width: 47.5%;
+}
+#CHartContainer .MainSection .L.Side .Logo{
+  display: flex;
+  align-items: center;
+}
+#CHartContainer .MainSection .L.Side .Logo img{
+  max-width: 110px;
+  max-height: 110x;
+  margin-right: 2.5%;
+}
+#CHartContainer .MainSection .L.Side .Logo p{
+  font-size: 200%;
+  font-weight: 600;
+}
+#CHartContainer .MainSection .L.Side .Logo .Details p:last-child{
+  font-size: 80%;
+}
+#CHartContainer .MainSection .L.Side .Price{
+  padding: 10px;
+  background: #ffffff20;
+  border-radius: 10px;
+  font-size: 175%;
+  font-weight: 600;
+  width: fit-content;
+  min-width: 300px;
+  margin: 4% 0;
+}
+#CHartContainer .MainSection .L.Side .Supply span{
+  padding: 5px;
+  background: #ffffff20;
+  border-radius: 5px;
+}
+#CHartContainer .MainSection .R.Side{
+  display: flex;
+  flex-wrap: wrap;
+}
+#CHartContainer .MainSection .R.Side .Box{
+  padding: 2.5%;
+  border-radius: 20px;
+  background: #ffffff20;
+  text-align: center;
+  width: 45%;
+  margin: 2.5%;
+}
+#CHartContainer .MainSection .R.Side .Box .h{
+  font-weight: 600;
+  color: #ffffff90;
+}
+#CHartContainer .MainSection .R.Side .Box p{
+  font-size: 200%;
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  #CHartContainer .MainSection{
+    flex-direction: column;
+  }
+  #CHartContainer .MainSection .Side{
+    width: 100%;
+  }
+}
